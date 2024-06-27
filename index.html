@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kirti Chavan | UI/UX Designer and Java Developer</title>
+    <link rel="stylesheet" href="portfolio-styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="path/to/particles.min.js"></script>
+    <script src="path/to/main.js"></script>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section id="home">
+        <div id="particles-js"></div>
+        <div class="home-content">
+            <div class="profile-picture">
+                <img src="kirti2websitehome.jpeg" alt="Profile Picture">
+            </div>
+            <h1 class="kirti">Hi, I'm Kirti Chavan</h1>
+            <p class="animated-text">UI Designer and Java Developer</p>
+
+            <button><a href="your-cv-url-here" download>Download CV</a></button>
+            <p class="home-description">Navigating the digital frontier with precision and creativity, shaping tomorrow's innovations today.</p>
+        </div>
+    </section>
+    
+
+
+    <div class="section-separator"></div>
+
+    <section id="about">
+        <h2>- A Little Bit About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p class="about-description">Embarking on an exhilarating journey through the ever-evolving landscapes of technology, I am an enthusiastic explorer of the digital universe. As a dedicated student at Modern College of Engineering, I find profound joy in the art of design and web development. In the dynamic realm of Electronics and Computer Engineering, I embrace the harmonious interplay of creativity and functionality. With each project, I immerse myself in crafting intuitive designs and robust web solutions, driven by a passion for innovation and a keen eye for detail.</p>
+                
+                <!-- Insert the connect-button here -->
+                <div class="connect-button">
+                    <a href="social-links.html" target="_blank" class="button">Let's Connect</a>
+                </div>
+                <!-- End of connect-button -->
+    
+            </div>
+            <img src="aboutsection.jpeg" alt="about">
+        </div>
+    </section>
+    
+    
+
+    <div class="section-separator"></div>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <div class="ring" data-percentage="80"></div>
+                <p>Java</p>
+            </div>
+            <div class="skill">
+                <div class="ring" data-percentage="90"></div>
+                <p>HTML & CSS</p>
+            </div>
+            <div class="skill">
+                <div class="ring" data-percentage="70"></div>
+                <p>JavaScript</p>
+            </div>
+            <div class="skill">
+                <div class="ring" data-percentage="50"></div>
+                <p>Flutter</p>
+            </div>
+            <div class="skill">
+                <div class="ring" data-percentage="85"></div>
+                <p>UI/UX Design</p>
+            </div>
+        </div>
+    </section>
+    
+
+    <div class="section-separator"></div>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project">
+                <img src="smart parking.png" alt="Smart parking">
+                <h3>Smart Parking System</h3>
+                <button onclick="toggleDescription('smart-parking')">Learn More</button>
+                <div class="project-description" id="smart-parking">
+                    <p>The Smart Parking System aims to address common challenges faced in urban parking, such as finding available parking spaces, managing parking resources efficiently, and reducing traffic congestion caused by vehicles searching for parking. By implementing this system, cities can enhance the parking experience for residents and visitors, improve traffic flow, and contribute to a smarter and more sustainable urban infrastructure.</p>
+                </div>
+            </div>
+            <div class="project">
+                <img src="homesecuritysystem.png" alt="Home Security System">
+                <h3>Home Security System</h3>
+                <button onclick="toggleDescription('home-security')">Learn More</button>
+                <div class="project-description" id="home-security">
+                    <p>The Home Security System aims to enhance the safety and security of residential properties by providing real-time monitoring, threat detection, and alert mechanisms. With the implementation of this system, homeowners can have peace of mind knowing that their homes are protected from potential intruders and emergencies. The system combines modern technologies and user-friendly features to create a comprehensive and effective security solution.</p>
+                </div>
+            </div>
+            <div class="project">
+                <img src="netflixclone.png" alt="Netflix Clone Website">
+                <h3>Netflix Clone Website</h3>
+                <button onclick="toggleDescription('project-1')">Learn More</button>
+                <div class="project-description" id="project-1">
+                    <p>Description of your Project 1 goes here.</p>
+                </div>
+            </div>
+        </div>
+        <div class="explore-button-container">
+            <a href="https://docs.google.com/presentation/d/18_zzIO9uk-hag45b5lrySNKhOazz6lID/edit?usp=drive_link&ouid=114739260769427562287&rtpof=true&sd=true" class="explore-button" target="_blank">Explore Ideas</a>
+        </div>
+    </section>
+    
+
+    <div class="section-separator"></div>
+
+    <section id="contact">
+        <div class="hero"></div>
+        <h2>Let's Connect!!</h2>
+        <p>If you would like to get in touch, feel free to send me a message:</p>
+        <img src="Screenshot 2024-06-19 154646.png" alt="Contact">
+        <form action="https://formspree.io/f/{your-id}" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer id="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 Kirti Chavan. All Rights Reserved.</p>
+            <ul class="social-links">
+                <li><a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn</a></li>
+                <li><a href="https://github.com/yourprofile" target="_blank">GitHub</a></li>
+                <li><a href="https://twitter.com/yourprofile" target="_blank">Twitter</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="particles-config.js"></script>
+    <script>
+        particlesJS("particles-js", {
+            particles: {
+                number: { value: 80, density: { enable: true, value_area: 800 } },
+                color: { value: "#00008b" },
+                shape: {
+                    type: "circle",
+                    stroke: { width: 0, color: "#000000" },
+                    polygon: { nb_sides: 5 },
+                    image: { src: "img/github.svg", width: 100, height: 100 }
+                },
+                opacity: {
+                    value: 0.5,
+                    random: false,
+                    anim: { enable: false, speed: 1, opacity_min: 0.1, sync: false }
+                },
+                size: {
+                    value: 3,
+                    random: true,
+                    anim: { enable: false, speed: 40, size_min: 0.1, sync: false }
+                },
+                line_linked: {
+                    enable: true,
+                    distance: 150,
+                    color: "#00008b",
+                    opacity: 0.4,
+                    width: 1
+                },
+                move: {
+                    enable: true,
+                    speed: 6,
+                    direction: "none",
+                    random: false,
+                    straight: false,
+                    out_mode: "out",
+                    bounce: false,
+                    attract: { enable: false, rotateX: 600, rotateY: 1200 }
+                }
+            },
+            interactivity: {
+                detect_on: "canvas",
+                events: {
+                    onhover: { enable: true, mode: "repulse" },
+                    onclick: { enable: true, mode: "push" },
+                    resize: true
+                },
+                modes: {
+                    grab: { distance: 400, line_linked: { opacity: 1 } },
+                    bubble: { distance: 400, size: 40, duration: 2, opacity: 8, speed: 3 },
+                    repulse: { distance: 200, duration: 0.4 },
+                    push: { particles_nb: 4 },
+                    remove: { particles_nb: 2 }
+                }
+            },
+            retina_detect: true
+        });
+
+        function toggleDescription(projectId) {
+            var projectDescription = document.getElementById(projectId);
+            projectDescription.style.display = projectDescription.style.display === "block" ? "none" : "block";
+        }
+    </script>
+</body>
+</html
